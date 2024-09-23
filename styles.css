@@ -1,0 +1,51 @@
+p {
+    color: blue;
+  }
+  .mi-clase {
+    background-color: yellow;
+  }
+  * {
+     margin: 0;
+     padding: 0;
+  }
+  a[title] { 
+/* reglas */
+}
+a[href="https://google.com"] {
+ /* reglas */
+}
+button {
+    background-color: red /* Color inicial del botón */
+    color: blueviolet;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue; /* Color del botón cuando el ratón pasa por encima */
+}
+  h1{
+    font-size: 30pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h2{
+    text-align: center;
+  }
+.container {
+    width: 200px;
+    height: 150px;
+    background-color: aquamarine;
+    padding: 60px;
+    margin: 40px;
+    border: 2px dotted;
+}
+.ejemplo-box-sizing {
+width: 200px;
+padding: 10px;
+border: 10px solid;
+background-color: blueviolet;
+box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
